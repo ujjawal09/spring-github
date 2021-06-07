@@ -1,0 +1,9 @@
+package dom.repository;
+
+import java.awt.List;
+
+import dom.model.Product;
+
+public interface ProductRepository {
+	public List<Product> findAll();
+}
