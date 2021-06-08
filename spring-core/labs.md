@@ -8,3 +8,5 @@
 :zero: Add OracleRepository and MongoDBRepository bean configurations to repositoryBeans.xml.  
 
 :two: Add constructor based di with service layer (lp2a-xml-di-cons)
+
+:three: Apply setter-based di and use property files.(lp1c-xml-di-setter-props)  
