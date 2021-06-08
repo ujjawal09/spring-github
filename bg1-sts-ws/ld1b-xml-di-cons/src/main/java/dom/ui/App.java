@@ -1,11 +1,28 @@
 package dom.ui;
 
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import dom.repository.ProductRepositoryImpl;
+import dom.repository.ProductRepository;
+import dom.service.ProductService;
 
 public class App {
 	public static void main(String[] args) {
+constructorBasedDI();
+	}
+
+	private static void constructorBasedDI() {
+		//		performIOC();
+				ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
+		//		The traditional way
+		//		ProductRepository productRepository = (ProductRepository) applicationContext.getBean("productRepository");
+		//		The spring way
+				ProductService productService = applicationContext.getBean("productService", ProductService.class);
+				productService.findAll().forEach(System.out::println);
+				((ClassPathXmlApplicationContext) applicationContext).close();
+	}
+
+	private static void performIOC() {
 		System.out.println("Starter Enterprise App Setup");
 //		tradionalWay();
 		/*
@@ -26,8 +43,7 @@ public class App {
 //		The traditional way
 //		ProductRepository productRepository = (ProductRepository) applicationContext.getBean("productRepository");
 //		The spring way
-		ProductRepositoryImpl productRepository = applicationContext.getBean("productRepository",
-				ProductRepositoryImpl.class);
+		ProductRepository productRepository = applicationContext.getBean("productRepository", ProductRepository.class);
 		productRepository.findAll().forEach(System.out::println);
 		applicationContext.close();
 	}
