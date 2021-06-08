@@ -51,3 +51,5 @@ List<String> userList = service.getUsernameList();
 - Annotation Configuration
 - Java Configuration  
 
+:beginner: **Bean Scopes**  
+
