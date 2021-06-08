@@ -1,5 +1,3 @@
-content_assist_autoactivation_delay=250
-content_assist_autoactivation_triggers_java=._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
 content_assist_favorite_static_members=org.assertj.core.api.Assertions.*;org.mockito.Matchers.*;org.mockito.Mockito.*;org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestBuilders.*;org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.*;org.springframework.security.test.web.servlet.response.SecurityMockMvcResultMatchers.*;org.springframework.security.test.web.servlet.setup.SecurityMockMvcConfigurers.*;org.springframework.restdocs.mockmvc.MockMvcRestDocumentation.*;org.springframework.test.web.client.match.MockRestRequestMatchers.*;org.springframework.test.web.client.response.MockRestResponseCreators.*;org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;org.springframework.test.web.servlet.result.MockMvcResultHandlers.*;org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;org.hamcrest.CoreMatchers.*;org.junit.Assert.*
 content_assist_number_of_computers=15
 content_assist_proposals_background=255,255,255
@@ -36,7 +34,7 @@ sp_cleanup.double_negation=false
 sp_cleanup.else_if=false
 sp_cleanup.embedded_if=false
 sp_cleanup.evaluate_nullable=false
-sp_cleanup.format_source_code=true
+sp_cleanup.format_source_code=false
 sp_cleanup.format_source_code_changes_only=false
 sp_cleanup.hash=false
 sp_cleanup.if_condition=false
