@@ -1,10 +1,4 @@
 INDEX VERSION 1.131+C:\Users\Enzo\Desktop\bG1\spring-github\bg1-sts-ws\.metadata\.plugins\org.eclipse.jdt.core
-1128269309.index
-1790921656.index
-3039812535.index
-879644196.index
-206134554.index
+399269284.index
 261777912.index
 3957645087.index
-287795301.index
-3165759926.index

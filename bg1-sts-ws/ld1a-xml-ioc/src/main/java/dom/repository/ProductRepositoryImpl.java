@@ -15,5 +15,4 @@ public class ProductRepositoryImpl implements ProductRepository {
 		products.add(new Product("P02", "Awaken the Giant Within", 500));
 		return products;
 	}
-
 }
