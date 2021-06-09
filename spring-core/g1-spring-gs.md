@@ -53,3 +53,6 @@ List<String> userList = service.getUsernameList();
 
 :beginner: **Bean Scopes**  
 
+:beginner: **Bean Lifecycle**  
+[Prototype Destory Method](https://docs.spring.io/spring-framework/docs/4.0.x/spring-framework-reference/htmlsingle/#beans-factory-scopes-prototype)  
+

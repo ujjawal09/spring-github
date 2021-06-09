@@ -18,6 +18,13 @@ public class ProductRepositoryImpl implements ProductRepository {
 	public void destroy() {
 		System.out.println("bean clean up operations");
 	}
+	
+	public void initBean() {
+		System.out.println("bean initialization 1");
+	}
+	public void destroyBean() {
+		System.out.println("bean clean up operations 1");
+	}
 	public List<Product> findAll() {
 //		A STUB FOR PRODUCTS
 		List<Product> products = new ArrayList<>();

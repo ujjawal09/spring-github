@@ -26,6 +26,7 @@ public class App {
 			System.out.println(productRepository);
 			System.out.println("Closing the application context...");
 		applicationContext.close();
+		System.out.println("Client App : " + Thread.currentThread().getName());
 	}
 
 	private static void setterBasedDI() {
