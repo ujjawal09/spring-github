@@ -6,9 +6,9 @@
 	http://www.springframework.org/schema/beans/spring-beans.xsd
 		http://www.springframework.org/schema/context
 		 http://www.springframework.org/schema/context/spring-context.xsd">
-		<context:annotation-config/>
-		<context:component-scan base-package="dom"/>
+	<!-- <context:annotation-config/> -->
+	<context:component-scan base-package="dom" />
 	<!-- ProductRepository productRepository = new ProductRepositoryImpl(); -->
-<!-- 	<bean id="productRepository"
-		class="dom.repository.ProductRepositoryImpl" /> -->
+	<!-- <bean id="productRepository" class="dom.repository.ProductRepositoryImpl" 
+		/> -->
 </beans>
