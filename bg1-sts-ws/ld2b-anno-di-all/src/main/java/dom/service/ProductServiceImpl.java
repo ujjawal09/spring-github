@@ -14,19 +14,19 @@ public class ProductServiceImpl implements ProductService {
 // The dependency is taken care by spring.
 	
 // FIELD BASED DI
-	@Autowired
+//	@Autowired
 	private ProductRepository productRepository;
 
 // Spring injects the dependency through constructor base DI
-//	@Autowired
-//	public ProductServiceImpl(ProductRepository productRepository) {
-//		System.out.println("CONS BASED DI public ProductServiceImpl(ProductRepository productRepository);");
-//		this.productRepository = productRepository;
-//	}
-
-	public ProductServiceImpl() {
-		System.out.println("Default Constructor !!!");
+	@Autowired
+	public ProductServiceImpl(ProductRepository productRepository) {
+		System.out.println("CONS BASED DI public ProductServiceImpl(ProductRepository productRepository);");
+		this.productRepository = productRepository;
 	}
+
+//	public ProductServiceImpl() {
+//		System.out.println("Default Constructor !!!");
+//	}
 
 	@Override
 	public List<Product> findAll() {
@@ -35,9 +35,8 @@ public class ProductServiceImpl implements ProductService {
 	}
 	// Spring injects the dependency through setter based DI
 //	@Autowired
-//	public void setProductRepository(ProductRepository productRepository) {
-//		this.productRepository = productRepository;
-//		System.out.println("SETTER BASED DI : public void setProductRepository(ProductRepository productRepository)");
-//	}
-
+	public void setProductRepository(ProductRepository productRepository) {
+		this.productRepository = productRepository;
+		System.out.println("SETTER BASED DI : public void setProductRepository(ProductRepository productRepository)");
+	}
 }
