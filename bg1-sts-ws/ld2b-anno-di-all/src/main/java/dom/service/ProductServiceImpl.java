@@ -24,6 +24,10 @@ public class ProductServiceImpl implements ProductService {
 //		this.productRepository = productRepository;
 //	}
 
+	public ProductServiceImpl() {
+		System.out.println("Default Constructor !!!");
+	}
+
 	@Override
 	public List<Product> findAll() {
 
