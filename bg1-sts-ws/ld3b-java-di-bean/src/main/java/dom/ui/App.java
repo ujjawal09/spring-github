@@ -10,6 +10,7 @@ import dom.model.Product;
 import dom.repository.ProductRepository;
 import dom.repository.ProductRepositoryImpl;
 
+
 public class App {
 	public static void main(String[] args) {
 		System.out.println("Starter Enterprise App Setup");

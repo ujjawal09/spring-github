@@ -5,7 +5,6 @@ import java.util.List;
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
@@ -23,7 +22,8 @@ public class ProductServiceImpl implements ProductService {
 // The dependency is taken care by spring.
 	
 // FIELD BASED DI
-	@Autowired
+//	@Autowired
+
 //	@Qualifier("mySQLProductRepository")
 	@Qualifier("oracleProductRepository")
 	private ProductRepository productRepository;
