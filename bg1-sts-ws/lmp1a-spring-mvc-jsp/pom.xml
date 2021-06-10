@@ -21,13 +21,13 @@
 
   <dependencies>
   		<!-- Dependency for Spring Test to be added -->
-
+<!-- 
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-test</artifactId>
 			<version>5.0.2.RELEASE</version>
 			<scope>test</scope>
-		</dependency>
+		</dependency> -->
 		
 		<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
 		<dependency>

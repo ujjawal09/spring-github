@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:context="http://www.springframework.org/schema/context"
 	xmlns:mvc="http://www.springframework.org/schema/mvc"
@@ -11,7 +11,10 @@
 	
 	<bean id="veiwresolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 	<property name="prefix" value="WEB-INF/views"></property>
-	<property name="suffix" value=".jsp"></property>	
+	<property name="suffix" value=".jsp"></property>
+	<!-- Assume that the controller returns "index" -->
+	<!-- WEB-INF/home/views/"index".jsp -->	
 	</bean>
 </beans>
 
+ -->
