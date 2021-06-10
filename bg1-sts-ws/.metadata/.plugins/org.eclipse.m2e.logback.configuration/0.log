@@ -2186,3 +2186,7 @@ org.eclipse.core.runtime.CoreException: Launch configuration App (1) references 
 2021-06-10 11:51:33,393 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2021-06-10 11:51:33,395 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-06-10 11:51:33,395 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Enzo\Desktop\bG1\spring-github\bg1-sts-ws\lmp1a-spring-mvc-jsp\src\test\resources
+2021-06-10 12:01:26,153 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-10 12:01:26,154 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-10 12:01:26,156 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-10 12:01:26,157 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Enzo\Desktop\bG1\spring-github\bg1-sts-ws\lmp1a-spring-mvc-jsp\src\test\resources

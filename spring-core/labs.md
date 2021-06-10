@@ -1,5 +1,4 @@
 :book: **Lab Project**  
-:zero: = optional lab
 
 :beginner: **spring-core**
 
