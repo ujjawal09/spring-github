@@ -1,7 +1,7 @@
 CustomFiltersActionGroup.org.eclipse.jdt.ui.PackageExplorer.TAG_DUMMY_TO_TEST_EXISTENCE=storedViewPreferences
 content_assist_autoactivation_delay=250
 content_assist_autoactivation_triggers_java=._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="dom.service.ProductService"><rhs name\="dom.service.ProductServiceImpl"/></lhs><lhs name\="dom.repository.ProductRepository"><rhs name\="dom.repository.ProductRepository"/></lhs><lhs name\="java.lang.Enum"><rhs name\="org.springframework.web.bind.annotation.RequestMethod"/></lhs><lhs name\="java.lang.constant.Constable"><rhs name\="org.springframework.web.bind.annotation.RequestMethod"/></lhs></history>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="dom.service.ProductService"><rhs name\="dom.service.ProductServiceImpl"/></lhs><lhs name\="dom.repository.ProductRepository"><rhs name\="dom.repository.ProductRepository"/></lhs><lhs name\="java.lang.Enum"><rhs name\="org.springframework.web.bind.annotation.RequestMethod"/></lhs><lhs name\="java.lang.constant.Constable"><rhs name\="org.springframework.web.bind.annotation.RequestMethod"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="dom.model.Product"><rhs name\="dom.model.Product"/></lhs></history>
 content_assist_number_of_computers=15
 content_assist_proposals_background=255,255,255
 content_assist_proposals_foreground=0,0,0
